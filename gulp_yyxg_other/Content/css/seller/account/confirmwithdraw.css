@@ -1,0 +1,48 @@
+.withdraw-confirm .dt {
+  padding: 10px 0;
+  display: inline-block;
+  width: 75px;
+  text-align: right;
+}
+.withdraw-confirm .dd {
+  display: inline-block;
+  line-height: 33px;
+  margin-left: 50px;
+}
+.bank-info {
+  padding: 55px 70px 50px;
+  border-bottom: 1px solid #dedede;
+}
+.bank-info .bank_account {
+  padding-left: 35px;
+  background: url('/Content/images/resourImg/withdraw/ccb_bank.jpg') no-repeat 0 4px;
+}
+.bank-info .a_num {
+  color: #FF0000;
+}
+.bank-info .rec_time {
+  padding-left: 25px;
+  background: url('/Content/images/resourImg/withdraw/clock.png') no-repeat 0 8px;
+  color: #FF0000;
+}
+.bank-password {
+  padding: 65px 70px 80px;
+}
+.bank-password .input_psw {
+  height: 33px;
+}
+.bank-password .password_confirm {
+  margin-top: 30px;
+}
+.bank-password .confirm_btn {
+  display: block;
+  width: 92px;
+  height: 30px;
+  background: #393;
+  color: #eee;
+  text-align: center;
+}
+.bank-password .links {
+  color: #038CD9;
+  margin-left: 18px;
+}

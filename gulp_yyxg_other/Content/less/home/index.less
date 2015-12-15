@@ -1,0 +1,256 @@
+/*home.css*/
+
+
+
+/* banner部分的样式 */
+.bigImgBanner {
+	height: 466px;
+	overflow: hidden;
+	.bigImgBanner_bd {
+	    overflow: hidden;
+	    position: relative;
+	}
+	.slides_wrapperbox {
+	    display: none;
+	    position: absolute;
+	    text-align: center;
+	}
+	.slidesjs-navigation{
+		display: none;
+	}
+	/* 圆角标记 */
+	.slidesjs-pagination {
+	    position: absolute;
+	    bottom: 10px;
+	    z-index: 11;
+	    left: 50%;
+		margin-left: 500px;
+	}
+	.slidesjs-pagination li {
+	    float: left;
+	    margin: 0 10px;
+	    position: relative;
+	    left: -50%;
+	}
+	.slidesjs-pagination li a {
+		float: left;
+		display: inline;
+	    width: 18px;
+	    height: 18px;
+	    background: url(../../images/pagination.png) 0 0 no-repeat;
+	    overflow: hidden;
+	    text-indent: -20000em;
+	}
+	.slidesjs-pagination li a.active,
+	.slidesjs-pagination li a:hover.active {
+	    background: url(../../images/pagination_active.png) no-repeat;
+	}
+}
+
+
+/* 今日抢鲜 */
+.dailyfresh{
+	width: 1200px;
+	margin: 20px auto 0;
+	.dailyfresh_hd{
+		float: left;
+		display: inline;
+		width: 210px;
+		height: 150px;
+		background: url(../../images/dailyfresh.jpg) no-repeat;
+		p{
+			margin-left: 20px;
+			height: 32px;
+			line-height: 32px;
+			margin-top: 16px;
+			font-size: 24px;
+			color: #c00;
+		}
+		span{
+			margin-left: 20px;
+			height: 20px;
+			line-height: 20px;
+			font-size: 14px;
+			color: #c00;
+		}
+	}
+	.dailyfresh_bd{
+		margin-left: -1px;
+		.item{
+			position: relative;
+			z-index: 100;
+			float: left;
+			display: inline;
+			margin-left: 1px;
+			.linkA{
+				display: block;
+				width: 246px;
+				height: 150px;
+				background: #eee;
+			}
+			.fruitImg{
+				position: absolute;
+				z-index: 9;
+				right: 16px;
+				bottom: -8px;
+				max-height: 150px;
+				max-width: 246px;
+			}
+			.infoWrap{
+				position: absolute;
+				z-index: 10;
+				top: 21px;
+				left: 20px;
+			}
+			.fprice,.fname{
+				height: 24px;
+				line-height: 24px;
+				font-size: 18px;
+				font-weight: bold;
+				color: #333;
+			}
+			.fdiscount{
+				height: 20px;
+				line-height: 20px;
+				font-size: 12px;
+				font-weight: bold;
+				color: #f6aa00;
+			}
+			.fprivilege{
+				float: left;
+				display: inline;
+				height: 18px;
+				line-height: 18px;
+				padding: 0 5px;
+				background: #f90;
+				font-size: 12px;
+				font-family: "宋体";
+				color: #fff;
+			}
+		}
+	}
+}
+
+/* 鱼羊花果优选 */
+.main-cont{
+	width: 1200px;
+	margin: 0 auto;
+}
+.optimization{
+	width: 966px;
+	.optimize-box{
+		.hd{
+			height: 38px;
+			line-height: 38px;
+			margin-top: 24px;
+			font-size: 20px;
+			font-weight: normal;
+			color: #666;
+		}
+		.bd{
+			border: 1px solid #ededed;
+
+			// 正常的展示
+			.block{
+				float: left;
+				display: inline;
+			}
+			.item{
+				width: 209px;
+			}
+			.proName,.proInfo{
+				display: block;
+				margin-left: 30px;
+				font-family: "黑体";
+				font-weight: bold;
+			}
+			.proName{
+				height: 25px;
+				line-height: 25px;
+				padding-top: 21px;
+				font-size: 14px;
+				color: #333;
+			}
+			.proInfo{
+				height: 20px;
+				line-height: 20px;
+				font-size: 12px;
+				color: #393;
+			}
+			.proImg{
+				margin-left: 32px;
+				img{
+					width: 140px;
+					height: 140px;
+				}
+			}
+			.borderB{
+				border-bottom: 1px solid #ededed;
+			}
+			.borderR{
+				border-right: 1px solid #ededed;
+			}
+			.borderBR{
+				border-bottom: 1px solid #ededed;
+				border-right: 1px solid #ededed;
+			}
+			.proScroll{
+				float: left;
+				display: inline;
+				font-size: 0;
+			}
+			// 产品轮播滚动
+		}
+	}
+}
+
+/* 提货点/好货 */
+.main-cont .goods{
+	margin-left: 10px;
+}
+
+
+/* 产品的轮播 */
+.proScroll {
+	width: 336px;
+	height: 418px;
+	overflow: hidden;
+	.proScrollWrap{
+		position: relative;
+		overflow: hidden;
+	}
+	.proScrollBox {
+	    display: none;
+	    position: absolute;
+	    text-align: center;
+	}
+	.slidesjs-navigation{
+		display: none;
+	}
+	/* 圆角标记 */
+	.slidesjs-pagination {
+	    position: absolute;
+	    bottom: 10px;
+	    z-index: 11;
+	    left: 50%;
+	}
+	.slidesjs-pagination li {
+	    float: left;
+	    margin: 0 5px;
+	    position: relative;
+	    left: -50%;
+	}
+	.slidesjs-pagination li a {
+		float: left;
+		display: inline;
+	    width: 30px;
+	    height: 6px;
+	    background: #ddd;
+	    overflow: hidden;
+	    text-indent: -20000em;
+	}
+	.slidesjs-pagination li a.active,
+	.slidesjs-pagination li a:hover.active {
+	    background: #448b3d;
+	}
+}

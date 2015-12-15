@@ -1,0 +1,43 @@
+.find-pwd-cont .progress-h {
+  width: 640px;
+}
+.find-pwd-cont .progress-bar {
+  width: 640px;
+}
+.find-pwd-cont.container {
+  background: #f2f2f2;
+}
+.find-pwd-cont .content {
+  width: 990px;
+  height: 314px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 52px 0 34px;
+}
+.find-pwd-cont .content .details {
+  width: 320px;
+  margin: 0 auto;
+}
+.find-pwd-cont .form .item {
+  margin-bottom: 20px;
+}
+.find-pwd-cont .form .item.img-verify {
+  margin-bottom: 30px;
+}
+.find-pwd-cont .form .item.special-item {
+  margin-bottom: 25px;
+}
+.find-pwd-cont .advice {
+  line-height: 20px;
+  margin-top: 4px;
+  font-family: "宋体";
+}
+.find-pwd-cont .advice .get-pwd {
+  color: #339933;
+}
+.find-pwd-cont .advice .hotline {
+  color: #666;
+}
+.find-pwd-cont .second-step {
+  margin-top: 60px;
+}

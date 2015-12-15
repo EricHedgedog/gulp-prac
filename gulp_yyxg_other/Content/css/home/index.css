@@ -1,0 +1,244 @@
+/*home.css*/
+/* banner部分的样式 */
+.bigImgBanner {
+  height: 466px;
+  overflow: hidden;
+  /* 圆角标记 */
+}
+.bigImgBanner .bigImgBanner_bd {
+  overflow: hidden;
+  position: relative;
+}
+.bigImgBanner .slides_wrapperbox {
+  display: none;
+  position: absolute;
+  text-align: center;
+}
+.bigImgBanner .slidesjs-navigation {
+  display: none;
+}
+.bigImgBanner .slidesjs-pagination {
+  position: absolute;
+  bottom: 10px;
+  z-index: 11;
+  left: 50%;
+  margin-left: 500px;
+}
+.bigImgBanner .slidesjs-pagination li {
+  float: left;
+  margin: 0 10px;
+  position: relative;
+  left: -50%;
+}
+.bigImgBanner .slidesjs-pagination li a {
+  float: left;
+  display: inline;
+  width: 18px;
+  height: 18px;
+  background: url(../../images/pagination.png) 0 0 no-repeat;
+  overflow: hidden;
+  text-indent: -20000em;
+}
+.bigImgBanner .slidesjs-pagination li a.active,
+.bigImgBanner .slidesjs-pagination li a:hover.active {
+  background: url(../../images/pagination_active.png) no-repeat;
+}
+/* 今日抢鲜 */
+.dailyfresh {
+  width: 1200px;
+  margin: 20px auto 0;
+}
+.dailyfresh .dailyfresh_hd {
+  float: left;
+  display: inline;
+  width: 210px;
+  height: 150px;
+  background: url(../../images/dailyfresh.jpg) no-repeat;
+}
+.dailyfresh .dailyfresh_hd p {
+  margin-left: 20px;
+  height: 32px;
+  line-height: 32px;
+  margin-top: 16px;
+  font-size: 24px;
+  color: #c00;
+}
+.dailyfresh .dailyfresh_hd span {
+  margin-left: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #c00;
+}
+.dailyfresh .dailyfresh_bd {
+  margin-left: -1px;
+}
+.dailyfresh .dailyfresh_bd .item {
+  position: relative;
+  z-index: 100;
+  float: left;
+  display: inline;
+  margin-left: 1px;
+}
+.dailyfresh .dailyfresh_bd .item .linkA {
+  display: block;
+  width: 246px;
+  height: 150px;
+  background: #eee;
+}
+.dailyfresh .dailyfresh_bd .item .fruitImg {
+  position: absolute;
+  z-index: 9;
+  right: 16px;
+  bottom: -8px;
+  max-height: 150px;
+  max-width: 246px;
+}
+.dailyfresh .dailyfresh_bd .item .infoWrap {
+  position: absolute;
+  z-index: 10;
+  top: 21px;
+  left: 20px;
+}
+.dailyfresh .dailyfresh_bd .item .fprice,
+.dailyfresh .dailyfresh_bd .item .fname {
+  height: 24px;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.dailyfresh .dailyfresh_bd .item .fdiscount {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #f6aa00;
+}
+.dailyfresh .dailyfresh_bd .item .fprivilege {
+  float: left;
+  display: inline;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 5px;
+  background: #f90;
+  font-size: 12px;
+  font-family: "宋体";
+  color: #fff;
+}
+/* 鱼羊花果优选 */
+.main-cont {
+  width: 1200px;
+  margin: 0 auto;
+}
+.optimization {
+  width: 966px;
+}
+.optimization .optimize-box .hd {
+  height: 38px;
+  line-height: 38px;
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #666;
+}
+.optimization .optimize-box .bd {
+  border: 1px solid #ededed;
+}
+.optimization .optimize-box .bd .block {
+  float: left;
+  display: inline;
+}
+.optimization .optimize-box .bd .item {
+  width: 209px;
+}
+.optimization .optimize-box .bd .proName,
+.optimization .optimize-box .bd .proInfo {
+  display: block;
+  margin-left: 30px;
+  font-family: "黑体";
+  font-weight: bold;
+}
+.optimization .optimize-box .bd .proName {
+  height: 25px;
+  line-height: 25px;
+  padding-top: 21px;
+  font-size: 14px;
+  color: #333;
+}
+.optimization .optimize-box .bd .proInfo {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #393;
+}
+.optimization .optimize-box .bd .proImg {
+  margin-left: 32px;
+}
+.optimization .optimize-box .bd .proImg img {
+  width: 140px;
+  height: 140px;
+}
+.optimization .optimize-box .bd .borderB {
+  border-bottom: 1px solid #ededed;
+}
+.optimization .optimize-box .bd .borderR {
+  border-right: 1px solid #ededed;
+}
+.optimization .optimize-box .bd .borderBR {
+  border-bottom: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+}
+.optimization .optimize-box .bd .proScroll {
+  float: left;
+  display: inline;
+  font-size: 0;
+}
+/* 提货点/好货 */
+.main-cont .goods {
+  margin-left: 10px;
+}
+/* 产品的轮播 */
+.proScroll {
+  width: 336px;
+  height: 418px;
+  overflow: hidden;
+  /* 圆角标记 */
+}
+.proScroll .proScrollWrap {
+  position: relative;
+  overflow: hidden;
+}
+.proScroll .proScrollBox {
+  display: none;
+  position: absolute;
+  text-align: center;
+}
+.proScroll .slidesjs-navigation {
+  display: none;
+}
+.proScroll .slidesjs-pagination {
+  position: absolute;
+  bottom: 10px;
+  z-index: 11;
+  left: 50%;
+}
+.proScroll .slidesjs-pagination li {
+  float: left;
+  margin: 0 5px;
+  position: relative;
+  left: -50%;
+}
+.proScroll .slidesjs-pagination li a {
+  float: left;
+  display: inline;
+  width: 30px;
+  height: 6px;
+  background: #ddd;
+  overflow: hidden;
+  text-indent: -20000em;
+}
+.proScroll .slidesjs-pagination li a.active,
+.proScroll .slidesjs-pagination li a:hover.active {
+  background: #448b3d;
+}

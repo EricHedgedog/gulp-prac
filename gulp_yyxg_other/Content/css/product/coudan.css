@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* 左侧导航 */
+.refilter {
+  width: 207px;
+  border: 1px solid #dddddd;
+  border-top: 2px solid #999999;
+}
+.refilter .mt {
+  height: 36px;
+  padding-left: 8px;
+  background-img: none;
+  background-color: #f7f7f7;
+  line-height: 34px;
+  border-bottom: 1px solid #dddddd;
+}
+.refilter .mt h2 {
+  font-size: 14px;
+}
+.refilter .mc {
+  width: 207px;
+}
+.refilter .mc .item {
+  position: relative;
+  margin-top: -1px;
+  background: #fff;
+}
+.refilter .mc .item h3 {
+  overflow: hidden;
+  height: 24px;
+  padding: 3px 6px 3px 36px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background: #f7f7f7;
+  line-height: 24px;
+  cursor: pointer;
+}
+.refilter .mc .item h3 b {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+  background: url(../../images/iconadd.jpg) no-repeat 0 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.refilter .mc .item ul {
+  padding: 4px 0 4px 45px;
+  overflow: hidden;
+  zoom: 1;
+}
+.refilter .mc .item li {
+  height: 24px;
+  line-height: 24px;
+  padding: 0px 4px 0px 0;
+  overflow: hidden;
+}
+.refilter .mc .item li a:hover {
+  color: #393;
+  font-weight: bold;
+}
+.right-extra {
+  width: 970px;
+}
+/* 选中的产品 */
+.product-detail {
+  height: 160px;
+  margin-bottom: 10px;
+}
+.product-detail .float-nav-wrap {
+  border: 1px solid #dddddd;
+  overflow: hidden;
+  height: 160px;
+  background-color: #fff;
+}
+.product-detail .float-nav-wrap .full {
+  color: #333333;
+  position: relative;
+  height: 35px;
+  padding: 0px 0px 0px 62px;
+  background: #f7f7f7;
+  margin-bottom: 15px;
+}
+.product-detail .float-nav-wrap .full .btn {
+  cursor: pointer;
+  position: absolute;
+  background: url(../../images/icon_coupon.png) no-repeat 0 -53px;
+  width: 107px;
+  height: 25px;
+  line-height: 100px;
+  overflow: hidden;
+  top: 4px;
+  right: 10px;
+}
+.product-detail .float-nav-wrap .s-full {
+  position: absolute;
+  background: url(../../images/icon_coupon.png) no-repeat 0 -179px;
+  height: 46px;
+  width: 50px;
+  top: -1px;
+  left: -1px;
+}
+.product-detail .float-nav-wrap .total {
+  float: left;
+  line-height: 35px;
+}
+.product-detail .float-nav-wrap .total font {
+  color: #393;
+}
+.product-detail .float-nav-wrap .prize {
+  float: left;
+  line-height: 35px;
+}
+.product-detail .float-nav-wrap .spec-list {
+  height: 92px;
+  overflow: hidden;
+  padding: 10px 21px 8px;
+  position: relative;
+}
+.product-detail .float-nav-wrap .spec-list .spec-items {
+  float: left;
+  width: 900px;
+  height: 92px;
+  overflow: hidden;
+}
+.product-detail .float-nav-wrap .spec-list .spec-items strong {
+  color: #cc0000;
+  font-weight: normal;
+}
+.product-detail .float-nav-wrap .spec-list .spec-items li {
+  float: left;
+  width: 100px;
+  height: 92px;
+}
+.product-detail .float-nav-wrap .spec-list .spec-items .p-img img {
+  border: 1px solid #dddddd;
+  height: 50px;
+  width: 50px;
+}
+.product-detail .float-nav-wrap .spec-list .spec-items .p-total {
+  color: #333333;
+  line-height: 18px;
+}
+.product-detail .float-nav-wrap .spec-list .spec-items .p-detal {
+  color: #005ea7;
+  line-height: 18px;
+  cursor: pointer;
+}
+/* 产品列表 */
+.plist li {
+  float: left;
+  width: 212px;
+  padding: 0 15px 20px;
+  text-align: center;
+  position: relative;
+}
+.plist .p-img {
+  position: relative;
+  height: 160px;
+}
+.plist .p-img a {
+  display: block;
+  border: 1px solid #fff;
+  font-size: 0;
+}
+.plist .p-img a:hover {
+  border-color: #393;
+}
+.plist .p-img img {
+  width: 160px;
+  height: 160px;
+}
+.plist .p-name {
+  height: 3em;
+  line-height: 1.5em;
+  word-wrap: break-word;
+  margin-top: 6px;
+}
+.plist .p-price {
+  margin-top: 5px;
+  height: 22px;
+  line-height: 22px;
+}
+.plist .btns {
+  height: 24px;
+  margin-top: 10px;
+  text-align: center;
+  overflow: hidden;
+  zoom: 1;
+}
+.plist .btns a {
+  display: inline-block;
+  width: 89px;
+  height: 21px;
+  margin: 0 2px;
+  line-height: 100px;
+  overlow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  background: url(../../images/icon_coupon.png) no-repeat 0 -87px;
+}
+.p_page {
+  padding: 20px 0 10px;
+}
+.p_page .pagination {
+  float: right;
+}
