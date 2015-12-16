@@ -1,0 +1,44 @@
+.change-pwd-cont .progress-h {
+  width: 480px;
+}
+.change-pwd-cont .progress-bar {
+  width: 480px;
+}
+.change-pwd-cont.container {
+  background: #f2f2f2;
+}
+.change-pwd-cont .content {
+  width: 990px;
+  height: 290px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 76px 0 34px;
+}
+.change-pwd-cont .content .details {
+  width: 320px;
+  margin: 0 auto;
+}
+.change-pwd-cont .form .txt-item {
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+}
+.change-pwd-cont .first-step .verify-mail .submit-item {
+  margin-top: 60px;
+  margin-bottom: 11px;
+}
+.change-pwd-cont .first-step .verify-mail .change-way {
+  line-height: 22px;
+  font-size: 14px;
+  text-align: center;
+}
+.change-pwd-cont .first-step .verify-mail .change-way a {
+  color: #339933;
+}
+.change-pwd-cont .first-step .verify-tel {
+  margin-top: 36px;
+}
+.change-pwd-cont .second-step .submit-item {
+  margin-top: 30px;
+}

@@ -1,0 +1,266 @@
+/* banner部分的样式 */
+.bigImgBanner {
+	height: 466px;
+	overflow: hidden;
+	.bigImgBanner_bd {
+	    overflow: hidden;
+	    position: relative;
+	}
+	.slides_wrapperbox {
+	    display: none;
+	    position: absolute;
+	    text-align: center;
+	}
+	.slidesjs-navigation{
+		display: none;
+	}
+	/* 圆角标记 */
+	.slidesjs-pagination {
+	    position: absolute;
+	    bottom: 10px;
+	    z-index: 11;
+	    left: 50%;
+		margin-left: 500px;
+	}
+	.slidesjs-pagination li {
+	    float: left;
+	    margin: 0 10px;
+	    position: relative;
+	    left: -50%;
+	}
+	.slidesjs-pagination li a {
+		float: left;
+		display: inline;
+	    width: 18px;
+	    height: 18px;
+	    background: url(../../images/pagination.png) 0 0 no-repeat;
+	    overflow: hidden;
+	    text-indent: -20000em;
+	}
+	.slidesjs-pagination li a.active,
+	.slidesjs-pagination li a:hover.active {
+	    background: url(../../images/pagination_active.png) no-repeat;
+	}
+}
+
+
+/* 选择提货点 */
+.location{
+	width: 1198px;
+	margin: 60px auto 100px;
+	border: 1px solid #cdcdcd;
+}
+.selectCity{
+	height: 62px;
+	line-height: 62px;
+	padding: 21px 0;
+	background: #f4f4f4;
+	.positionBox{
+		position: relative;
+		z-index: 60;
+		.i-loaction{
+			position: absolute;
+			left: 30px;
+			top: 16px;
+			width: 19px;
+			height: 30px;
+			background: url(../../images/location_b.png) no-repeat;
+		}
+		.nowCity{
+			margin-left: 70px;
+			font-size: 24px;
+			color: #222;
+		}
+	}
+	.divisionImg{
+		margin: 0 32px 0 38px;
+	}
+	.selectForm{
+		.itxt{
+			font-size: 14px;
+			color: #222;
+		}
+		.select-option{
+			height: 24px;
+			margin-top: 20px;
+			margin-right: 8px;
+		}
+		.submit-btn{
+			width: 67px;
+			height: 24px;
+			text-align: center;
+			line-height: 24px;
+			margin-top: 20px;
+			background: #393;
+			border: 0;
+			cursor: pointer;
+			font-family: "宋体";
+			font-size: 12px;
+			color: #fff;
+		}
+	}
+	.search-area{
+		margin-left: 50px;
+		.itxt{
+			font-size: 14px;
+			color: #222;
+		}
+		.iInput{
+			width: 178px;
+			height: 22px;
+			line-height: 22px;
+			padding-left: 6px;
+			border: 1px solid #cdcdcd;
+		}	
+	}
+}
+/*  */
+.location-title{
+	margin-top: 10px;
+	line-height: 60px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #222;
+	margin-left: 30px;
+}
+/* 最近常用提货点 */
+.oftenUse{
+	border-bottom: 1px solid #cdcdcd;
+	padding-bottom: 6px;
+	.oftenUse-title{
+		height: 30px;
+		line-height: 30px;
+		margin-left: 30px;
+		font-size: 14px;
+		color: #222;
+	}
+	.oftenUseBox{
+		margin-left: -40px;
+		margin-top: 10px;
+		.locationItem{
+			margin-left: 70px;
+			margin-bottom: 18px;
+		}
+	}
+
+}
+/* 按区域选择提货点 */
+.selectArea{
+	padding-bottom: 20px;
+	.selectArea-title{
+		height: 30px;
+		line-height: 30px;
+		margin-left: 30px;
+		font-size: 14px;
+		color: #222;
+		margin-top: 12px;
+	}
+	.areaList{
+		margin-top: 13px;
+		margin-left: 32px;
+		li{
+			float: left;
+			display: inline;
+			cursor: pointer;
+			margin-right: 14px;
+			margin-bottom: 2px;
+			height: 22px;
+			line-height: 22px;
+			padding: 0 14px;
+			&.active{
+				background: #393;
+				color: #fff;
+			}
+		}
+	}
+	.selectAreaBox{
+		margin-left: -40px;
+		margin-top: 20px;
+		.locationItem{
+			margin-left: 70px;
+			margin-bottom: 18px;
+		}
+	}
+
+}
+.locationItem{
+	float: left;
+	display: inline;
+	border: 1px solid #fff;
+	&.hover{
+		border: 1px solid #393;
+	}
+	.locationWrap{
+		position: relative;
+		z-index: 10;
+		width: 323px;
+		height: 102px;
+		border: 1px solid #cecece;
+		.address{
+			overflow: hidden;
+			.shop-logo{
+				width: 37px;
+				height: 34px;
+				margin: 26px 0 0 18px;
+			}
+			.shopLink{
+				width: 216px;
+				margin-left: 15px;
+				margin-top: 21px;
+			}
+			.shopName,.shopAddr{
+				display: block;
+				height: 22px;
+				line-height: 22px;
+				font-family: "宋体";
+				color: #666;
+			}
+			.shopName{
+				font-size: 14px;
+				font-weight: bold;
+			}
+			.shopAddr{
+				font-size: 12px;
+			}
+			.mapLink{
+				width: 26px;
+				height: 80px;
+				line-height: 80px;
+				margin-top: 6px;
+				font-size: 0;
+				text-align: right;
+				background: url(../../images/location_line.gif) 0 0 no-repeat;
+				img{
+					vertical-align: middle;
+				}
+			}
+		}
+
+		.businessInfo{
+			position: absolute;
+			width: 100%;
+			height: 17px;
+			line-height: 17px;
+			background: #dedede;
+			.i-tel{
+				position: absolute;
+				left: 48px;
+				top: 2px;
+				width: 13px;
+				height: 13px;
+				background: url(../../images/tel_icon.png) no-repeat;
+			}
+			.tel-info,.office-hours{
+				font-family: "宋体";
+				font-size: 12px;
+				color: #666;
+			}
+			.tel-info{
+				margin-left: 70px;
+			}
+			.office-hours{
+				margin-left: 20px;
+			}
+		}
+	}
+}

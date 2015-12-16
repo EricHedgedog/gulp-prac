@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>收到退款申请</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="/Content/css/global/global.css">
+<link rel="stylesheet" href="/Content/css/modules/behind_shared_navi.css">
+<!-- 当前页面css -->
+<link rel="stylesheet" href="/Content/css/seller/account/withdraw.css">
+<!-- /当前页面css -->
+<script type="text/javascript" src="/Scripts/hdf/lib/jquery.1.7.2.min.js"></script>
+<script type="text/javascript"> window.SITE_VERSION = '20151123';</script>
+<script type="text/javascript" src="/Scripts/hdf/lib/sea.3.0.1.min.js"></script>
+</head>
+<body>
+    <!-- 顶部 -->
+	<div class="header-t index">
+		<div class="header-w clearfix">
+			<div class="goods-addr fl">
+				<p class="txt">上门自提：<a href="#"><span class="cityArea">苏州</span><span class="detailArea">陆家园区</span>自提点</a><i class="arrow"></i></p>
+			</div>
+			<div class="menu fr">
+				<ul class="clearfix">
+					<li class="item"><a class="primarylink" href="#">羊羊羊</a></li>
+					<li class="item register-item"><a class="primarylink" href="#">退出</a></li>
+					<li class="item line"><span>|</span></li>
+					<li class="item subnav js-hasSubNav">
+						<a class="primarylink" href="#">我的花果</a>
+						<i class="arrow"></i>
+						<!-- 我的花果下拉菜单内容 -->
+						<div class="h-mycenter-masking"></div>
+						<div class="h-mycenter">
+							<div class="center clearfix">
+								<div class="protrait fl">
+									<img class="protrait-img" src="/Content/images/resourImg/protrait_mask.jpg" alt="">
+									<img class="protrait-masking" src="/Content/images/protrait_mask.png" alt="">
+								</div>
+								<div class="protrait-msg fl">
+									<p class="msg-name"><a href="#">洋洋</a></p>
+									<ul class="msg-info clearfix">
+										<li><a href="#">优惠券</a><span>2</span></li>
+										<li class="line">|</li>
+										<li><a href="#">消息</a><span>7</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="list clearfix">
+								<ul class="list-ul fl">
+									<li><a href="#">待处理订单</a><span>2</span></li>
+									<li><a href="#">咨询回复</a></li>
+									<li><a href="#">降价商品</a><span>4</span></li>
+									<li><a href="#">评价管理</a></li>
+								</ul>
+								<ul class="list-ul fl">
+									<li><a href="#">我的收藏</a></li>
+									<li><a href="#">已买到的</a></li>
+								</ul>
+							</div>
+							<div class="footmark">
+								<p class="footmark-title clearfix"><span class="fl">我的足迹</span><a class="fr" href="#">更多 ></a></p>
+								<ul class="footmark-list clearfix">
+									<li><a href="#"><img src="/Content/images/resourImg/footmark1.jpg" alt=""></a></li>
+									<li><a href="#"><img src="/Content/images/resourImg/footmark2.jpg" alt=""></a></li>
+									<li><a href="#"><img src="/Content/images/resourImg/footmark1.jpg" alt=""></a></li>
+									<li><a href="#"><img src="/Content/images/resourImg/footmark2.jpg" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="item line"><span>|</span></li>
+					<li class="item"><a class="primarylink" href="#">收藏夹</a></li>
+					<li class="item line"><span>|</span></li>
+					<li class="item subnav js-hasSubNav">
+						<a class="primarylink" href="#">卖家中心</a>
+						<i class="arrow"></i>
+						<!-- 卖家中心的下拉导航 -->
+						<ul class="childnav">
+							<li><a href="#">申请开店</a></li>
+							<li><a href="#">已卖出的</a></li>
+							<li><a href="#">出售中的</a></li>
+						</ul>
+					</li>
+					<li class="item line"><span>|</span></li>
+					<li class="item subnav js-hasSubNav">
+						<a class="primarylink" href="#">客户服务</a>
+						<i class="arrow"></i>
+						<!-- 客户服务的下拉导航 -->
+						<ul class="childnav">
+							<li><a href="#">帮助中心</a></li>
+							<li><a href="#">售后服务</a></li>
+							<li><a href="#">在线客服</a></li>
+							<li><a href="#">意见建议</a></li>
+							<li><a href="#">客户邮箱</a></li>
+						</ul>
+					</li>
+					<li class="item line"><span>|</span></li>
+					<li class="item"><a class="primarylink" href="#">一麻袋</a></li>
+					<li class="item line"><span>|</span></li>
+					<li class="item"><a class="primarylink" href="#">汇贾商城</a></li>
+					<li class="item line"><span>|</span></li>
+					<li class="item"><a class="primarylink" href="#">汇贾分期</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 头部 -->
+    <div class="back_header">
+    	<div class="m_w clearfix">
+    		<div class="b_h_left fl">
+    			<a class="b_h_logo" href="#"><img src="/Content/images/logo.png" alt=""></a>
+    			<span class="sell_title">卖家中心</span>
+    			<ul class="navitems">
+    				<li><a href="#">首页</a></li>
+    				<li><a href="#">账户设置</a></li>
+    				<li><a href="#">消息</a></li>
+    			</ul>
+    		</div>
+    		<div class="extra fr"></div>
+    	</div>
+    </div>
+
+    <!-- 主体内容部分 -->
+    <div class="m_w b_main_cont clearfix">
+    	<div class="b_leftNavi fl">
+    		<ul class="nav_module">
+    			<li class="single"><a href="#">卖家中心首页</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="single"><a href="#">申请开通店铺</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="single"><a href="#">查看我的店铺</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">商家信息管理</a></li>
+				<li><a href="#">店铺基本信息</a></li>
+				<li><a href="#">商家信息管理</a></li>
+				<li><a href="#">公司经营信息管理</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">商家资质管理</a></li>
+    			<li><a href="#">公司资质管理</a></li>
+    			<li><a href="#">店铺资质管理-企业</a></li>
+    			<li><a href="#">产品专业资质管理-企业</a></li>
+    			<li><a href="#">品牌资质管理</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="single"><a href="#">产品专业资质管理-个人</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="single"><a href="#">推广服务管理-个人</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">品牌管理</a></li>
+    			<li><a href="#">店铺品牌列表</a></li>
+    			<li><a href="#">申请新品牌</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">视频管理</a></li>
+    			<li><a href="#">视频产品介绍</a></li>
+    			<li><a href="#">开通视频服务</a></li>
+    			<li><a href="#">视频列表</a></li>
+    			<li><a href="#">上传视频</a></li>
+    			<li><a href="#">关联商品</a></li>
+    			<li><a href="#">编辑视频基本信息</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">店铺域名管理</a></li>
+    			<li><a href="#">二级域名申请</a></li>
+    			<li><a href="#">申请绑定域名</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">订单管理</a></li>
+    			<li><a href="#">评价管理</a></li>
+    			<li><a href="#">已卖出产品</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">商品管理</a></li>
+    			<li><a href="#">店内分类管理</a></li>
+    			<li><a href="#">发布产品</a></li>
+    			<li><a href="#">批量修改商品部分属性</a></li>
+    			<li><a href="#">高级搜索</a></li>
+    			<li><a href="#">出售中产品</a></li>
+    			<li><a href="#">仓库中产品</a></li>
+    			<li><a href="#">历史记录</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">账户管理</a></li>
+    			<li><a href="#">提现</a></li>
+    			<li><a href="#">充值</a></li>
+    			<li><a href="#">转入到商家推广账户</a></li>
+    			<li><a href="#">收支记录</a></li>
+    		</ul>
+    		<ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">供货点管理</a></li>
+    			<li><a href="#">供货点列表</a></li>
+    			<li><a href="#">添加供货点</a></li>
+    			<li><a href="#">入库管理</a></li>
+    			<li><a href="#">退库管理</a></li>
+    		</ul>
+    		<!-- <ul class="nav_module">
+    			<li class="dt"><a href="javascript:;">数据罗盘</a></li>
+    			<li><a href="#">报告概要</a></li>
+    			<li><a href="#">经营报告</a></li>
+    			<li><a href="#">销售分析</a></li>
+    			<li><a href="#">流量分析</a></li>
+    			<li><a href="#">广告分析</a></li>
+    			<li><a href="#">广告分析</a></li>
+    			<li><a href="#">客户分析</a></li>
+    			<li><a href="#">营销分析</a></li>
+    			<li><a href="#">提货点分析</a></li>
+    			<li><a href="#">售后服务分析</a></li>
+    			<li><a href="#">装修效果分析</a></li>
+    			<li><a href="#">来源分析</a></li>
+    		</ul> -->　
+    	</div>
+    	<div class="b_mainBox fl">
+    		<div class="withdraw-apply bcl-box">
+    			<div class="hd">提取余额到银行卡 
+    			<span class="w_balance">余额：<em class="w_bal_num">5200.00</em> 元</span>
+                <span class="fr w_left"><a class="hd_left_btn card_add" href="">添加银行卡</a><a class="hd_left_btn" href="">提现记录</a></span>
+    			</div>
+    			<div class="bd clearfix">
+    				<div class="withdraw-options">
+                       <form action="">
+                            <div class="w_banks clearfix">
+                                <div class="fl bank_label"><span class="b_span w_labels">选择银行卡：</span></div>
+                                <div class="fl bank_opts">
+                                    <div class="opts">
+                                        <input class="bank_radio" id="bank_01" type="radio" name="bank">
+                                        <label for="bank_01" class="bank_name">中国农业银行&nbsp;尾号：5015</label>
+                                        <span class="max_amount">限额200000元/每次</span>
+                                    </div>
+                                    <div class="opts">
+                                        <input class="bank_radio" id="bank_02" type="radio" name="bank">
+                                        <label for="bank_02" class="bank_name">中国农业银行&nbsp;尾号：5015</label>
+                                        <span class="max_amount">限额200000元/每次</span>
+                                    </div>
+                                    <div class="opts">
+                                        <input class="bank_radio" id="bank_03" type="radio" name="bank">
+                                        <label for="bank_03" class="bank_name">中国农业银行&nbsp;尾号：5015</label>
+                                        <span class="max_amount">限额200000元/每次</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_cash clearfix">
+                                <div class="cash_label fl"><span class="c_span w_labels">提现金额：<span></div>
+                                <div class="cash_input fl"><input type="text" placeholder="请输入金额" class="fl cash_num"><span class="fl c_unit">元</span></div>
+                            </div>
+                            <div class="w_time clearfix">
+                                <div class="time_label fl"><span class="w_labels">到账时间：</span></div>
+                                <div><input class="arr_time fl" id="time_01" type="radio" name="w_time"><label for="time_01" class="arr_time_label">次日到账</label><span class="time_free">&nbsp;&nbsp;&nbsp;(免费)</span></div>
+                            </div>
+                            <div class="w_next"><a href="#" class="w_next_btn">下一步</a></div>
+                       </form>
+                    </div>
+    			</div>
+    		</div>
+    	</div>
+    </div>	
+
+	<!-- footer -->
+	<div class="b-footer login-register">
+    	<ul class="footer-nav clearfix">
+    		<li><a href="#">关于鱼羊花果</a></li>
+    		<li><a href="#">联系我们</a></li>
+    		<li><a href="#">上门自提</a></li>
+    		<li><a href="#">商家入驻</a></li>
+    		<li><a href="#">广告服务</a></li>
+    		<li><a href="#">汇贾分期</a></li>
+    		<li><a href="#">汇贾商城</a></li>
+    		<li class="last"><a href="#">一麻袋</a></li>
+    	</ul>
+    	<p class="copyRight">Copyright©2004-2015  鱼羊花果yuyanghuaguo.com 版权所有</p>
+    </div>
+
+</body>
+</html>

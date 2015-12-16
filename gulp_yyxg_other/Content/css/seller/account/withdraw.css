@@ -1,0 +1,103 @@
+.withdraw-apply .bd {
+  padding: 70px;
+}
+.hd .w_balance {
+  color: #6A7474;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 15px;
+}
+.hd .w_bal_num {
+  font-size: 18px;
+  color: #FF0000;
+}
+.hd .hd_left_btn {
+  font-weight: normal;
+  color: #038CD9;
+  margin: 0 9px 0 5px;
+  padding-right: 9px;
+}
+.hd .card_add {
+  padding-left: 20px;
+  border-right: 1px solid #d4d4d4;
+  background: url('/Content/images/resourImg/withdraw/icon_add.png') no-repeat 0 2px;
+}
+.bd .w_labels {
+  display: block;
+  width: 72px;
+  text-align: right;
+}
+.bd .withdraw-options .b_span {
+  line-height: 46px;
+}
+.bd .withdraw-options .bank_opts {
+  margin-left: 25px;
+  width: 740px;
+}
+.bd .withdraw-options .opts {
+  border: 1px solid #dedede;
+  line-height: 46px;
+  margin-bottom: 10px;
+  background: #efefef url('/Content/images/resourImg/withdraw/withdraw_time.jpg') no-repeat 330px 15px;
+}
+.bd .withdraw-options .bank_radio {
+  margin-left: 8px;
+}
+.bd .withdraw-options .time_notice {
+  margin-left: 95px;
+}
+.bd .withdraw-options .bank_name {
+  margin-left: 15px;
+  padding-left: 26px;
+  background: #efefef url('/Content/images/resourImg/withdraw/bank1.jpg') no-repeat 0 0;
+}
+.bd .withdraw-options .max_amount {
+  margin-left: 250px;
+  color: #6A7474;
+  font-size: 12px;
+}
+.bd .withdraw-options .w_cash {
+  margin-top: 45px;
+}
+.bd .withdraw-options .cash_label {
+  height: 30px;
+}
+.bd .withdraw-options .c_span {
+  line-height: 30px;
+}
+.bd .withdraw-options .cash_input {
+  margin-left: 25px;
+}
+.bd .withdraw-options .cash_num {
+  width: 145px;
+  height: 30px;
+}
+.bd .withdraw-options .c_unit {
+  margin-left: 5px;
+  line-height: 30px;
+}
+.bd .withdraw-options .w_time {
+  margin-top: 45px;
+}
+.bd .withdraw-options .arr_time {
+  margin-left: 25px;
+}
+.bd .withdraw-options .arr_time_label {
+  margin-left: 5px;
+}
+.bd .withdraw-options .time_free {
+  color: #6A7474;
+  font-size: 12px;
+}
+.bd .withdraw-options .w_next {
+  margin: 55px 0 0 105px;
+}
+.bd .withdraw-options .w_next_btn {
+  background: #393;
+  display: block;
+  color: #eee;
+  font-size: 14px;
+  text-align: center;
+  width: 90px;
+  line-height: 30px;
+}

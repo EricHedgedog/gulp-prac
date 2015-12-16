@@ -1,0 +1,261 @@
+/* banner部分的样式 */
+.bigImgBanner {
+  height: 466px;
+  overflow: hidden;
+  /* 圆角标记 */
+}
+.bigImgBanner .bigImgBanner_bd {
+  overflow: hidden;
+  position: relative;
+}
+.bigImgBanner .slides_wrapperbox {
+  display: none;
+  position: absolute;
+  text-align: center;
+}
+.bigImgBanner .slidesjs-navigation {
+  display: none;
+}
+.bigImgBanner .slidesjs-pagination {
+  position: absolute;
+  bottom: 10px;
+  z-index: 11;
+  left: 50%;
+  margin-left: 500px;
+}
+.bigImgBanner .slidesjs-pagination li {
+  float: left;
+  margin: 0 10px;
+  position: relative;
+  left: -50%;
+}
+.bigImgBanner .slidesjs-pagination li a {
+  float: left;
+  display: inline;
+  width: 18px;
+  height: 18px;
+  background: url(../../images/pagination.png) 0 0 no-repeat;
+  overflow: hidden;
+  text-indent: -20000em;
+}
+.bigImgBanner .slidesjs-pagination li a.active,
+.bigImgBanner .slidesjs-pagination li a:hover.active {
+  background: url(../../images/pagination_active.png) no-repeat;
+}
+/* 选择提货点 */
+.location {
+  width: 1198px;
+  margin: 60px auto 100px;
+  border: 1px solid #cdcdcd;
+}
+.selectCity {
+  height: 62px;
+  line-height: 62px;
+  padding: 21px 0;
+  background: #f4f4f4;
+}
+.selectCity .positionBox {
+  position: relative;
+  z-index: 60;
+}
+.selectCity .positionBox .i-loaction {
+  position: absolute;
+  left: 30px;
+  top: 16px;
+  width: 19px;
+  height: 30px;
+  background: url(../../images/location_b.png) no-repeat;
+}
+.selectCity .positionBox .nowCity {
+  margin-left: 70px;
+  font-size: 24px;
+  color: #222;
+}
+.selectCity .divisionImg {
+  margin: 0 32px 0 38px;
+}
+.selectCity .selectForm .itxt {
+  font-size: 14px;
+  color: #222;
+}
+.selectCity .selectForm .select-option {
+  height: 24px;
+  margin-top: 20px;
+  margin-right: 8px;
+}
+.selectCity .selectForm .submit-btn {
+  width: 67px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  margin-top: 20px;
+  background: #393;
+  border: 0;
+  cursor: pointer;
+  font-family: "宋体";
+  font-size: 12px;
+  color: #fff;
+}
+.selectCity .search-area {
+  margin-left: 50px;
+}
+.selectCity .search-area .itxt {
+  font-size: 14px;
+  color: #222;
+}
+.selectCity .search-area .iInput {
+  width: 178px;
+  height: 22px;
+  line-height: 22px;
+  padding-left: 6px;
+  border: 1px solid #cdcdcd;
+}
+/*  */
+.location-title {
+  margin-top: 10px;
+  line-height: 60px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #222;
+  margin-left: 30px;
+}
+/* 最近常用提货点 */
+.oftenUse {
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 6px;
+}
+.oftenUse .oftenUse-title {
+  height: 30px;
+  line-height: 30px;
+  margin-left: 30px;
+  font-size: 14px;
+  color: #222;
+}
+.oftenUse .oftenUseBox {
+  margin-left: -40px;
+  margin-top: 10px;
+}
+.oftenUse .oftenUseBox .locationItem {
+  margin-left: 70px;
+  margin-bottom: 18px;
+}
+/* 按区域选择提货点 */
+.selectArea {
+  padding-bottom: 20px;
+}
+.selectArea .selectArea-title {
+  height: 30px;
+  line-height: 30px;
+  margin-left: 30px;
+  font-size: 14px;
+  color: #222;
+  margin-top: 12px;
+}
+.selectArea .areaList {
+  margin-top: 13px;
+  margin-left: 32px;
+}
+.selectArea .areaList li {
+  float: left;
+  display: inline;
+  cursor: pointer;
+  margin-right: 14px;
+  margin-bottom: 2px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 14px;
+}
+.selectArea .areaList li.active {
+  background: #393;
+  color: #fff;
+}
+.selectArea .selectAreaBox {
+  margin-left: -40px;
+  margin-top: 20px;
+}
+.selectArea .selectAreaBox .locationItem {
+  margin-left: 70px;
+  margin-bottom: 18px;
+}
+.locationItem {
+  float: left;
+  display: inline;
+  border: 1px solid #fff;
+}
+.locationItem.hover {
+  border: 1px solid #393;
+}
+.locationItem .locationWrap {
+  position: relative;
+  z-index: 10;
+  width: 323px;
+  height: 102px;
+  border: 1px solid #cecece;
+}
+.locationItem .locationWrap .address {
+  overflow: hidden;
+}
+.locationItem .locationWrap .address .shop-logo {
+  width: 37px;
+  height: 34px;
+  margin: 26px 0 0 18px;
+}
+.locationItem .locationWrap .address .shopLink {
+  width: 216px;
+  margin-left: 15px;
+  margin-top: 21px;
+}
+.locationItem .locationWrap .address .shopName,
+.locationItem .locationWrap .address .shopAddr {
+  display: block;
+  height: 22px;
+  line-height: 22px;
+  font-family: "宋体";
+  color: #666;
+}
+.locationItem .locationWrap .address .shopName {
+  font-size: 14px;
+  font-weight: bold;
+}
+.locationItem .locationWrap .address .shopAddr {
+  font-size: 12px;
+}
+.locationItem .locationWrap .address .mapLink {
+  width: 26px;
+  height: 80px;
+  line-height: 80px;
+  margin-top: 6px;
+  font-size: 0;
+  text-align: right;
+  background: url(../../images/location_line.gif) 0 0 no-repeat;
+}
+.locationItem .locationWrap .address .mapLink img {
+  vertical-align: middle;
+}
+.locationItem .locationWrap .businessInfo {
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  line-height: 17px;
+  background: #dedede;
+}
+.locationItem .locationWrap .businessInfo .i-tel {
+  position: absolute;
+  left: 48px;
+  top: 2px;
+  width: 13px;
+  height: 13px;
+  background: url(../../images/tel_icon.png) no-repeat;
+}
+.locationItem .locationWrap .businessInfo .tel-info,
+.locationItem .locationWrap .businessInfo .office-hours {
+  font-family: "宋体";
+  font-size: 12px;
+  color: #666;
+}
+.locationItem .locationWrap .businessInfo .tel-info {
+  margin-left: 70px;
+}
+.locationItem .locationWrap .businessInfo .office-hours {
+  margin-left: 20px;
+}

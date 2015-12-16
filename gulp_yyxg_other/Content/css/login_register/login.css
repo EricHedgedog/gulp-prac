@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-10 09:47:40
+ * @version $Id$
+ */
+.login-cont {
+  background: #9dc121;
+  height: 475px;
+}
+.login-cont .wrapper {
+  width: 990px;
+  margin: 0 auto;
+}
+.login-cont .loginBox {
+  float: right;
+  width: 306px;
+  margin-top: 40px;
+  padding: 15px 20px 16px;
+  background: #fff;
+}
+.login-cont .mt {
+  margin-bottom: 4px;
+}
+.login-cont .mt h3 {
+  line-height: 30px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #4c4c4c;
+}
+.login-cont .mt .regist-link {
+  margin-top: 4px;
+  line-height: 26px;
+  font-size: 16px;
+  color: #339933;
+}
+.login-cont .msg-wrap {
+  height: 26px;
+  margin-bottom: 10px;
+}
+.login-cont .msg-error {
+  display: none;
+  position: relative;
+  background: #fae5e5;
+  color: #c00;
+  border: 1px solid #c00;
+  padding: 3px 10px 3px 40px;
+  line-height: 18px;
+}
+.login-cont .msg-error b {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  background: url(../../images/loginForm/error-mark.png) no-repeat;
+}
+.login-cont .coagent h5 {
+  line-height: 22px;
+  font-size: 12px;
+  font-family: "宋体";
+  font-weight: normal;
+  color: #999;
+}
+.login-cont .coagent ul li {
+  float: left;
+  display: inline;
+  line-height: 26px;
+}
+.login-cont .coagent ul li a {
+  color: #666;
+}
+.login-cont .coagent ul li a:hover {
+  color: #339933;
+}
+.login-cont .coagent ul li span {
+  color: #d5d5d5;
+  margin: 0 12px;
+}
+.login-cont .btn-enter {
+  margin-bottom: 20px;
+  height: 35px;
+  line-height: 35px;
+}
+/* 登录表单的样式 */
+.login-cont .form .login-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  border-right: 1px solid #d5d5d5;
+  width: 38px;
+  height: 38px;
+}
+.login-cont .form .item .clear-btn {
+  z-index: 20;
+}
+.login-cont .form .item .name-label {
+  background: url(../../images/loginForm/username-icon.gif) no-repeat;
+}
+.login-cont .form .item .pwd-label {
+  background: url(../../images/loginForm/pwd-icon.gif) no-repeat;
+}
+.login-cont .form .item.focus-item .name-label {
+  background: url(../../images/loginForm/username-true-icon.gif) no-repeat;
+}
+.login-cont .form .item.focus-item .pwd-label {
+  background: url(../../images/loginForm/pwd-true-icon.gif) no-repeat;
+}
+.login-cont .form .item.error-item .name-label {
+  background: url(../../images/loginForm/username-error-icon.gif) no-repeat;
+}
+.login-cont .form .item.error-item .pwd-label {
+  background: url(../../images/loginForm/pwd-error-icon.gif) no-repeat;
+}
+.login-cont .form .item-fore3,
+.login-cont .form .item-fore4 {
+  border: 0;
+  margin-bottom: 0;
+}
+.login-cont .form .img-verify {
+  margin-bottom: 20px;
+}
+.login-cont .form .itxt {
+  *height: 16px;
+  padding: 10px 0 10px 50px;
+  width: 224px;
+}
+.login-cont .form .item-fore1,
+.login-cont .form .item-fore2 {
+  margin-bottom: 20px;
+  height: 38px;
+  background: none;
+}
+.login-cont .form .item-fore1 .clear-btn {
+  right: 14px;
+  top: 14px;
+  width: 10px;
+  height: 10px;
+  background: url(../../images/loginForm/close-icon.png) no-repeat;
+}
+.login-cont .form .item-fore2 a{
+  display: none;
+}
+.login-cont .form .item-fore2 .clear-btn {
+  right: 12px;
+  top: 14px;
+  width: 13px;
+  height: 9px;
+  background: url(../../images/loginForm/preview-icon.png) no-repeat;
+}
+.login-cont .form .safe {
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+.login-cont .form .safe .auto-btn {
+  font-family: "宋体";
+  font-size: 12px;
+  color: #666;
+}
+.login-cont .form .safe .auto-btn input {
+  margin-top: 3px;
+  margin-right: 4px;
+}
+.login-cont .form .safe .forget-pwd {
+  font-family: "宋体";
+  font-size: 12px;
+  color: #666;
+}
+.login-cont .form .safe .forget-pwd input {
+  margin-top: 3px;
+  margin-right: 4px;
+}
+.login-cont .form .safe .forget-pwd:hover {
+  color: #339933;
+}
+.thirdPart .protrait-box {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.thirdPart .masking {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 50%;
+  margin-left: -48px;
+  line-height: 0;
+}
+.thirdPart .protrait {
+  width: 92px;
+  height: 92px;
+  margin-top: 2px;
+  line-height: 0;
+}
+.thirdPart .user-name {
+  text-align: center;
+  line-height: 23px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: #333;
+}
+.thirdPart .coagent-name {
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 19px;
+  font-size: 14px;
+  color: #666;
+}
+.thirdPart .otherway {
+  line-height: 20px;
+}
+.thirdPart .otherway span {
+  color: #a2a2a2;
+}
+.thirdPart .otherway a {
+  color: #666;
+}
+.thirdPart .otherway a:hover {
+  color: #339933;
+}

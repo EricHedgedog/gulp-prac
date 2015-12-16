@@ -1,0 +1,910 @@
+@charset "UTF-8";
+
+/* css-reset css样式重置 */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th {
+    text-align: left;
+    font-weight: normal;
+}
+
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+    border: 0;
+}
+
+i,
+cite,
+em,
+var,
+address,
+dfn {
+    font-style: normal;
+}
+
+[hidefocus],
+summary {
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    font-size: 100%;
+}
+
+sup,
+sub {
+    font-size: 83%;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: inherit;
+}
+
+q:before,
+q:after {
+    content: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+label,
+summary {
+    cursor: default;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+    font-weight: bold;
+}
+
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend,
+pre {
+    font: 12px/1.14 "微软雅黑", "宋体", Tahoma;
+    color: #333;
+    outline: 0;
+}
+
+body {
+    background: #fff;
+}
+
+a {
+    color: #666;
+}
+
+
+/* End css-reset css样式重置 */
+
+
+/* 去掉IE浏览器input输入框的叉和小眼睛 */
+
+::-ms-clear,
+::-ms-reveal {
+    display: none;
+}
+
+
+/* 清除浮动 */
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* End 清除浮动 */
+
+.fl {
+    float: left;
+    display: inline;
+}
+
+.fr {
+    float: right;
+    display: inline;
+}
+
+.m_w{
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+
+/* 页面顶部 */
+
+.header-t {
+    background: #fff;
+}
+
+.header-w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-w.login-register{
+    width: 990px;
+}
+.header-w .arrow {
+    position: absolute;
+    right: 8px;
+    top: 13px;
+    width: 11px;
+    height: 5px;
+    background: url(../../images/loginForm/arrow-down.png) no-repeat;
+}
+
+.header-w .goods-addr .txt {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 24px;
+    color: #333;
+    font-family: "宋体";
+}
+
+.header-w .goods-addr .txt a:hover {
+    color: #393;
+}
+
+.header-w .goods-addr .detailArea {
+    margin-left: 8px;
+}
+
+.header-w .menu {
+    width: auto;
+    margin-right: -13px;
+}
+
+.header-w .menu .item {
+    position: relative;
+    z-index: 300;
+    float: left;
+    display: inline;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.header-w .menu .item.line {
+    color: #eee;
+    padding: 0;
+    border: 0;
+    width: 2px;
+}
+
+.header-w .menu .item.subnav {
+    padding-right: 24px;
+}
+
+.header-w .menu .primarylink {
+    display: block;
+    font-family: "宋体";
+    color: #666;
+}
+
+.header-w .menu .primarylink:hover {
+    color: #339933;
+}
+
+.header-w .menu .register-item {
+    padding-left: 0;
+}
+
+.header-w .menu .register-item a {
+    color: #2d9a2c;
+}
+
+.header-w .menu .item.subnav.hover {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.header-w .menu .childnav {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 100%;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 8px;
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+.header-w .menu .hover .childnav{
+    display: block;
+}
+.header-w .menu .childnav li {
+    line-height: 24px;
+    text-align: center;
+}
+
+.header-w .menu .childnav a {
+    color: #666;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+.header-w .menu .childnav a:hover {
+    color: #339933;
+}
+
+
+/* 我的花果下面的个人中心 */
+
+.header-w .h-mycenter-masking {
+    display: none;
+    position: absolute;
+    z-index: 101;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.header-w .hover .h-mycenter-masking,.header-w .hover .h-mycenter {
+    display: block;
+}
+
+.header-w .h-mycenter {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    left: -1px;
+    top: 100%;
+    width: 270px;
+    background: #fff;
+    padding: 10px 0 14px;
+    border: 1px solid #ddd;
+}
+
+.header-w .h-mycenter .center {
+    padding: 0 14px;
+}
+
+.header-w .h-mycenter .protrait {
+    position: relative;
+}
+
+.header-w .h-mycenter .protrait-img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header-w .h-mycenter .protrait-masking {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.header-w .h-mycenter .protrait-msg {
+    margin-left: 10px;
+}
+
+.header-w .h-mycenter .msg-name {
+    margin-top: 5px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.header-w .h-mycenter .msg-name a {
+    font-family: "宋体";
+    font-size: 12px;
+    color: #666;
+}
+
+.header-w .h-mycenter .msg-name a:hover {
+    color: #393;
+}
+
+.header-w .h-mycenter .msg-info li {
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    display: inline;
+}
+
+.header-w .h-mycenter .msg-info li.line {
+    margin: 0 8px;
+}
+
+.header-w .h-mycenter .msg-info a {
+    font-family: "宋体";
+    font-size: 12px;
+    color: #666;
+}
+
+.header-w .h-mycenter .msg-info a:hover {
+    color: #393;
+}
+
+.header-w .h-mycenter .msg-info span {
+    color: #393;
+    margin-left: 6px;
+}
+
+.header-w .h-mycenter .list {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.header-w .h-mycenter .list-ul {
+    width: 112px;
+    margin-left: 15px;
+}
+
+.header-w .h-mycenter .list a {
+    font-family: "宋体";
+    font-size: 12px;
+    color: #666;
+}
+
+.header-w .h-mycenter .list a:hover {
+    color: #393;
+}
+
+.header-w .h-mycenter .list span {
+    color: #393;
+    margin-left: 10px;
+}
+
+.header-w .h-mycenter .footmark {
+    margin-top: 6px;
+    padding: 0 15px;
+}
+
+.header-w .h-mycenter .footmark-title {
+    height: 30px;
+    line-height: 30px;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #666;
+}
+
+.header-w .h-mycenter .footmark-title a {
+    color: #666;
+}
+
+.header-w .h-mycenter .footmark-title a:hover {
+    color: #393;
+}
+
+.header-w .h-mycenter .footmark-list li {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.header-w .h-mycenter .footmark-list img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* 页面头部样式 */
+.b-header {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 22px 0 18px;
+}
+.b-header.login-register{
+    width: 990px;
+    padding: 12px 0;
+}
+.b-header .page-title {
+    line-height: 56px;
+    font-size: 24px;
+    color: #4c4c4c;
+    margin-left: 26px;
+}
+.b-header .header-txt {
+    line-height: 35px;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #4c4c4c;
+    margin-top: 10px;
+}
+.b-header .header-btn {
+    width: 70px;
+    height: 33px;
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    line-height: 33px;
+    font-size: 18px;
+    color: #4c4c4c;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+
+
+/* 模块二：类似首页的“我的购物车” */
+.shopcart{
+    position: relative;
+    z-index: 100;
+    margin-left: 88px;
+    margin-top: 4px;
+}
+.shopcart .cw-icon{
+    position: relative;
+}
+.shopcart .shopcart-txt{
+    display: block;
+    padding: 0 36px 0 43px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #dfdfdf;
+    font-size: 12px;
+    font-family: "宋体";
+}
+.shopcart .i-shopcart{
+    position: absolute;
+    z-index: 100;
+    left: 20px;
+    top: 10px;
+    width: 18px;
+    height: 15px;
+    background: url(../../images/shopcart.png) no-repeat;
+}
+.shopcart .i-right{
+    position: absolute;
+    z-index: 100;
+    top: 11px;
+    right: 10px;
+    width: 7px;
+    height: 13px;
+    overflow: hidden;
+    font: 400 13px/13px simsun;
+    color: #999;
+}
+.shopcart .i-count{
+    position: absolute;
+    z-index: 100;
+    top: -4px;
+    left: 104px;
+    display: inline-block;
+    padding: 1px 2px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #c81623;
+    border-radius: 7px 7px 7px 0; 
+    min-width: 12px;
+    text-align: center;
+}
+.shopcart .dorpdown-layer{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    width: 308px;
+}
+.shopcart.hover .dorpdown-layer{
+    display: block;
+}
+.shopcart .spacer{
+    position: absolute;
+    right: 0;
+    top: -7px;
+    width: 139px;
+    height: 12px;
+    background: #fff;
+}
+.shopcart .settleup-content{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    background: #fff;
+        font-family: "Arial";
+}
+.shopcart .settleup-content .smt{
+    height: 25px;
+    padding: 6px 8px;
+    line-height: 25px;
+}
+.shopcart .settleup-content .smc{
+    background: #fff;
+    height: auto!important;
+    height: 344px;
+    max-height: 344px;
+    overflow-y: auto;
+}
+.shopcart .settleup-content .smb{
+    padding: 8px;
+    background: #F5F5F5;
+    _height: 45px;
+    _padding-top: 15px;
+    _padding-bottom: 0;
+}
+.shopcart .settleup-content li{
+    padding: 8px 10px;
+    border-top: 1px dotted #ccc;
+    overflow: hidden;
+    line-height: 17px;
+    vertical-align: bottom;
+    color: #666;
+}
+.shopcart .settleup-content .p-img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    padding: 0;
+    margin-right: 10px;
+    font-size: 0;
+}
+.shopcart .settleup-content .p-img img{
+    width: 50px;
+    height: 50px;
+}
+.shopcart .settleup-content .p-name{
+    float: left;
+    width: 120px;
+    height: 52px;
+    overflow: hidden;
+}
+.shopcart .settleup-content .p-name a:hover{
+    color: #393;
+}
+.shopcart .settleup-content .p-detail{
+    text-align: right;
+}
+.shopcart .settleup-content li .gift{
+    height: 17px;
+    width: 282px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.shopcart .settleup-content li .gift a{
+    color: #999;
+}
+.shopcart .settleup-content .p-price{
+    font-weight: 700;
+    color: #666;
+}
+.shopcart .settleup-content .delete:hover{
+    color: #393;
+}
+.shopcart .settleup-content .hl-green,.shopcart .settleup-content .hl-orange {
+    margin-right: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 2px;
+    font: 12px/16px simsun;
+}
+.shopcart .settleup-content .smb .p-total {
+    float: left;
+    line-height: 29px;
+    color: #666;
+}
+.shopcart .settleup-content .smb a {
+    float: right;
+    height: 29px;
+    padding: 0 10px;
+    background: #E4393C;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 29px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.shopcart .settleup-content .hl-green {
+    background: #3b0;
+}
+.shopcart .settleup-content .hl-orange {
+    background: #f60;
+}
+#mcart-mj .dt, #mcart-mj .dt:hover, #mcart-mz .dt, #mcart-mz .dt:hover {
+    background: #bffab1;
+}
+/* 模块二：类似首页的“我的购物车” 结束 */
+
+
+
+/* 页面底部五大特色 */
+.character{
+    background: #f5f5f5;
+    padding: 24px 0;
+    margin-top: 20px;
+}
+.character_w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.character .item{
+    position: relative;
+    float: left;
+    display: inline;
+}
+.character .item .i-feature{
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.character .item.item01{
+    width: 250px;
+}
+.character .item.item01 .i-feature{
+    width: 35px;
+    height: 36px;
+    background: url(../../images/nav/foot_nav1.png) no-repeat;
+}
+.character .item.item02{
+    width: 250px;
+}
+.character .item.item02 .i-feature{
+    width: 39px;
+    height: 37px;
+    background: url(../../images/nav/foot_nav2.png) no-repeat;
+}
+.character .item.item03{
+    width: 250px;
+}
+.character .item.item03 .i-feature{
+    width: 38px;
+    height: 36px;
+    background: url(../../images/nav/foot_nav3.png) no-repeat;
+}
+.character .item.item04{
+    width: 260px;
+}
+.character .item.item04 .i-feature{
+    width: 34px;
+    height: 36px;
+    background: url(../../images/nav/foot_nav4.png) no-repeat;
+}
+.character .item.item05{
+    width: 190px;
+}
+.character .item.item05 .i-feature{
+    width: 38px;
+    height: 36px;
+    background: url(../../images/nav/foot_nav5.png) no-repeat;
+}
+.character .item .linkA{
+    float: left;
+    display: block;
+    margin-left: 58px;
+}
+.character .item .linkA span{
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    color: #222;
+}
+.character .item .linkA em{
+    font-weight: normal;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+
+
+/* 页面底部样式 */
+.b-footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.b-footer.login-register{
+    width: 990px;
+}
+.b-footer .footer-nav {
+    width: 565px;
+    margin: 0 auto;
+    padding-top: 34px;
+}
+.b-footer .footer-nav li {
+    float: left;
+    display: inline;
+    padding: 0 10px 0 11px;
+    background: url(../../images/loginForm/smallLine.gif) center right no-repeat;
+}
+.b-footer .footer-nav li.last {
+    background: none;
+}
+.b-footer .footer-nav li a {
+    color: #666;
+}
+.b-footer .footer-nav li a:hover {
+    color: #339933;
+}
+.b-footer .copyRight {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    line-height: 28px;
+}
+
+
+
+/* 分页样式 */
+.p_page .pagination{
+    float: left;
+}
+.p_page .pagination li{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.p_page .pagination li a{
+    display: block;
+    padding: 0 14px;
+}
+.p_page .pagination li.active{
+    background: #393;
+}
+.p_page .pagination li.active a{
+    color: #fff;
+}
+.p_page .pagination li.disabled a{
+    cursor: not-allowed;
+}
+.p_page .pageskip{
+    float: left;
+}
+.p_page .pageskip_txt{
+    float: left;
+    line-height: 36px;
+    font-size: 14px;
+}
+.p_page .pageskip_input{
+    float: left;
+    width: 30px;
+    height: 32px;
+    margin: 0 3px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+}
+.p_page .pageskip_btn{
+    float: left;
+    height: 27px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 27px;
+    padding: 4px 13px 5px;
+    color: #fff;
+    border-radius: 2px;
+    background: #393;
+}
+/* 分页样式 End */

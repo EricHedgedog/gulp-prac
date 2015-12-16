@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.refund_apply {
+  /* 退款信息 */
+  /* 退款操作 */
+}
+.refund_apply .apply_info {
+  width: 225px;
+  padding: 0 15px 50px 20px;
+  border-right: 1px solid #dedede;
+}
+.refund_apply .apply_info .info_title {
+  height: 52px;
+  line-height: 52px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.refund_apply .apply_info .pro_info {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.refund_apply .apply_info .pro_info a {
+  float: left;
+}
+.refund_apply .apply_info .pro_info img {
+  width: 52px;
+  height: 52px;
+  padding: 1px;
+  border: 1px solid #dedede;
+}
+.refund_apply .apply_info .pro_info .txtLink {
+  width: 150px;
+  line-height: 22px;
+  margin-left: 6px;
+  color: #0094ff;
+}
+.refund_apply .apply_info .pro_lists {
+  margin-top: 4px;
+}
+.refund_apply .apply_info .pro_lists li {
+  line-height: 32px;
+  overflow: hidden;
+}
+.refund_apply .apply_info .pro_lists .dt {
+  float: left;
+  width: 64px;
+  color: #9a9a9a;
+}
+.refund_apply .apply_info .pro_lists .dd {
+  float: left;
+  color: #4b4b4b;
+}
+.refund_apply .apply_info .pro_lists .dd em {
+  font-weight: normal;
+  color: #ee7000;
+}
+.refund_apply .apply_operate {
+  width: 686px;
+  padding: 0 40px 0 30px;
+  border-left: 1px solid #dedede;
+  margin-left: -1px;
+}
+.refund_apply .apply_operate .ope_title {
+  height: 38px;
+  line-height: 38px;
+  margin-top: 32px;
+  font-size: 18px;
+  color: #333;
+}
+.refund_apply .apply_operate .ope_tips {
+  margin-top: 16px;
+}
+.refund_apply .apply_operate .ope_tips li {
+  font-size: 14px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 12px;
+  background: url(../../../images/backstage/li_circle_icon.gif) 0 center no-repeat;
+}
+.refund_apply .apply_operate .ope_btns {
+  margin-top: 26px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.refund_apply .apply_operate .ope_btns a {
+  float: left;
+  width: 134px;
+  height: 37px;
+  text-align: center;
+  line-height: 37px;
+  background: #393;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 26px;
+}
+.refund_apply .apply_operate .buyer_info {
+  margin-top: 20px;
+}
+.refund_apply .apply_operate .buyer_protrait {
+  float: left;
+}
+.refund_apply .apply_operate .buyer_protrait img {
+  width: 40px;
+  height: 40px;
+  padding: 1px;
+  border: 1px solid #e5e6e1;
+}
+.refund_apply .apply_operate .buyer_reason {
+  width: 500px;
+  float: left;
+  margin-left: 16px;
+}
+.refund_apply .apply_operate .buyer_reason p {
+  line-height: 22px;
+}
+.refund_apply .apply_operate .buyer_time {
+  float: right;
+  line-height: 22px;
+}
+.b-from {
+  border: 1px solid red;
+}
+.b-from .f_t {
+  border: 1px solid red;
+}
+.b-from .f_bd {
+  border: 1px solid red;
+}

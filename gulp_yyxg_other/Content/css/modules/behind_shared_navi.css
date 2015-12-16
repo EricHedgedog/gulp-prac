@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+.header-w .menu .register-item a {
+    color: #666;
+}
+.b_main_cont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.b_mainBox{
+    width: 1020px;
+    margin-left: 10px;
+}
+.b_hr{
+    border-top: 1px solid #dedede;
+}
+
+
+/* 模块一 后台头部样式 start */
+.back_header{
+    background: #393;
+    padding: 16px 0;
+}
+.back_header .b_h_left{
+
+}
+.back_header .b_h_logo{
+    float: left;
+    display: block;
+    font-size: 0;
+}
+.back_header .sell_title{
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    height: 22px;
+    line-height: 22px;
+    margin: 36px 0 0 10px;
+}
+.back_header .navitems{
+    float: left;
+    margin-left: 30px;
+}
+.back_header .navitems li{
+    float: left;
+    line-height: 56px;
+    padding: 0 24px;
+}
+.back_header .navitems li a{
+    color: #fff;
+    font-size: 14px;
+}
+.back_header .navitems li a:hover{
+    text-decoration: underline;
+}
+.back_header{
+    
+}
+.back_header{
+    
+}
+/* 模块一 后台头部样式 end */
+
+
+
+/* 模块二 后台左侧单行 start168 */
+.b_leftNavi{
+    width: 160px;
+}
+.b_leftNavi .nav_module{
+    margin-bottom: 15px;
+}
+.b_leftNavi .nav_module li{
+    line-height: 24px;
+    height: 24px;
+}
+.b_leftNavi .nav_module li a{
+    
+}
+.b_leftNavi .nav_module li a:hover{
+    color: #393;
+    text-decoration: underline;
+}
+.b_leftNavi .nav_module li.dt{
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.b_leftNavi .nav_module li.dt a{
+    color: #333;
+    cursor: default;
+}
+.b_leftNavi .nav_module li.dt a:hover{
+    text-decoration: none;
+}
+.b_leftNavi .nav_module li.single{
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.b_leftNavi .nav_module li.single a{
+    color: #333;
+}
+.b_leftNavi .nav_module li.single a:hover{
+    color: #393;
+}
+/* 模块二 后台左侧单行 end */
+
+/*后台右侧框架结构*/
+.bcl-box{
+    border: 1px solid #dedede;
+}
+.bcl-box .hd{
+    height: 44px;
+    line-height: 44px;
+    background: #efefef;
+    border-bottom: 1px solid #dedede;
+    padding-left: 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
